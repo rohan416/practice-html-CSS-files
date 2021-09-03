@@ -1,0 +1,11 @@
+.dp{
+    background-color: #e0b5ef;
+    border: 4px solid #40405a;
+    padding: 30px 45px;
+    margin: 30px 45px;
+    border-radius: 20px;
+    width: 255px;
+}
+body{
+    background-color: cornflowerblue;
+}
