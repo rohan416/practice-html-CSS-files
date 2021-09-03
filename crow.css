@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.dp{
+    width: 900px;
+    border: 3px solid rgb(63, 13, 63);
+    margin: 33px auto ;
+    background: rgb(238, 187, 143);
+
+}
+
+.item{
+     border: 3px solid green;
+     margin: 2px 4px;
+   
+     padding: 20px 32px;
+     background: rgb(144, 160, 121);
+
+}
+body{
+    font-family: 'Dancing Script', cursive;
+}
+#fruits{
+    float: left;
+    width: 42%;
+}
+#computer{
+    float: left;
+    width: 42%;
+    
+
+}
+#stationary{
+    /* float: left; */
+    width: 100%;
+    clear: both;
+}
+p, h3{
+    text-align: justify;
+    text-align: left;
+}
+h1{
+    margin: auto;
+    width: 455px;
+}
