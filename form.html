@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>this is an HTML form</h2>
+    <form action="backened.php">
+        <div>
+        <label for="name">Name:</label>
+        
+             <input type="text" placeholder="enter name" name="myname" id="name">
+
+        </div>
+        <br>
+        <div>
+
+            Roll: <input type="text" placeholder="rolln number" name="roll">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="email" >
+        </div>
+
+        <br>
+        <div>
+            <input type="date" name="date" >
+        </div>
+        <br>
+        <div>
+            Bonus:<input type="number" name="bonus" >
+        </div>
+        <br>
+        <div>
+            <label for="gg">Are you eligible:</label>
+            <input type="checkbox" name="eligible" id="gg" >
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio" name="radio" >Female<input type="radio" name="radio" >
+        </div>
+        <br>
+        <div>
+            <textarea name="text"  cols="30" rows="10" placeholder="write about yoursel"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">CAR:</label>
+            <select name="vehickle" id="car">
+            <option value="ind">Indica</option>
+            <option value="inn">Innova</option>
+        </select>
+        </div>
+        <br>
+        <div>
+
+            <input type="submit" value="submit"> <input type="reset" value="reset">
+        </div>
+
+    </form>
+    
+</body>
+</html>
