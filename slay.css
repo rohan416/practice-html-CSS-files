@@ -1,0 +1,31 @@
+.container{
+    border: 3px solid red;
+    background-color:rgb(129, 173, 129);
+    padding: 34px;
+    margin: 34px auto;
+    width: 666px ;
+}
+.btn{
+    background-color: royalblue;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+
+}  
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color: rgb(48, 6, 48);
+    background-color: wheat;
+
+}
+a:visited{
+    background-color: rgb(140, 125, 182);
+}
+a:active{
+    background-color: yellowgreen;
+}
